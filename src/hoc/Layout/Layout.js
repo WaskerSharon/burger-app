@@ -29,9 +29,9 @@ class Layout extends Component {
                 <SideDrawer 
                     open={this.state.showSideDrawer}
                     closed={this.sideDrawerCloseHandler}/>
-                <p>video 131</p>
-                <p>section 13</p>
-                <p>video 237</p>
+                {/* <p>video 131</p> */}
+                {/* <p>section 13</p> */}
+                {/* <p>video 238</p> */}
                 <main className={classes.Content}>
                     {this.props.children}
                 </main>

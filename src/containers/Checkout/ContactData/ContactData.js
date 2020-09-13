@@ -56,6 +56,7 @@ class ContactData extends Component {
             elementConfig: {
                 options: [
                     {value: 'fastest', displayValue: 'Fastest'},
+                    {value: 'inbetween', displayValue: 'In Between'},
                     {value: 'cheapest', displayValue: 'Cheapest'}
                 ]
             },
@@ -80,9 +81,11 @@ class ContactData extends Component {
             } )
             .catch( error => {
                 this.setState({ loading: false });
-            }
-            );
+            } );
+    }
 
+    inputChangedUandler = (event) => {
+        console.log(event.target.value);
     }
 
     render () {
@@ -101,6 +104,7 @@ class ContactData extends Component {
                         elementType={formElement.config.elementType}
                         elementConfig={formElement.config.elementConfig}
                         value={formElement.config.value}
+                        changed={this.inputChangedUandler}
                     />
                  ))}
                 <Button btnType='Success' clicked={this.orderHandler} >ORDER</Button>
