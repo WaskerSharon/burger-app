@@ -27,5 +27,10 @@ input {
 
 .InputElement:focus {
     outline: none;
-    background-color: #cccccc;
+    background-color: #ececec;
+}
+
+.Invalid {
+    border: 1px solid rgb(255, 27, 27);
+    background-color: rgb(255, 231, 231);
 }
