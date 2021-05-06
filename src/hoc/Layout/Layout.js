@@ -31,7 +31,7 @@ class Layout extends Component {
                     closed={this.sideDrawerCloseHandler}/>
                 {/* <p>video 131</p> */}
                 {/* <p>section 14</p> */}
-                {/* <p>video 251</p> */}
+                {/* <p>video 267</p> */}
                 <main className={classes.Content}>
                     {this.props.children}
                 </main>
