@@ -13,7 +13,28 @@
     background: transparent;
 }
 
-@media (min-width: 500px) and (min-height: 400px){
+@media (max-width: 800px) {
+    .Burger {
+        max-width: 350px;
+        height: 300px;
+    }
+}
+
+/* @media (max-width: 500px) and (min-width: 401px){
+    .Burger {
+        max-width: 450px;
+        height: 400px;
+    }
+} */
+
+@media (min-width: 801px){
+    .Burger {
+        max-width: 450px;
+        height: 400px;
+    }
+}
+
+/* @media (min-width: 500px) and (min-height: 400px){
     .Burger {
         width: 350px;
         height: 300px;
@@ -25,11 +46,11 @@
         width: 450px;
         height: 400px;
     }
-}
+} */
 
-@media (min-width: 1000px) and (min-height: 700px){
+/* @media (min-width: 1000px) and (min-height: 700px){
     .Burger {
-        width: 700px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
     }
-}
+} */
